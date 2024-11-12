@@ -1,0 +1,54 @@
+/* --------- РћР‘РќРЈР›Р•РќРќРЇ РЎРўРР›Р†Р’ РўР•Р“Р†Р’ ------------ */
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  border: none;
+  box-sizing: border-box;
+}
+a,
+*::before,
+*::after {
+  display: inline-block;
+}
+li {
+  list-style: none;
+}
+a {
+  color: inherit;
+  text-decoration: none;
+}
+img {
+  vertical-align: top;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-weight: inherit;
+  font-size: inherit;
+}
+input,
+button,
+textarea {
+  font-family: inherit;
+  font-size: inherit;
+}
+button {
+  cursor: pointer;
+  color: inherit;
+  background-color: inherit;
+}
+html,
+body {
+  min-width: 320px;
+  height: 100%;
+  line-height: 1;
+}
+
+body {
+  line-height: 1;
+}
